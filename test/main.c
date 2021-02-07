@@ -1,7 +1,7 @@
 // Standard C library
 #include <stdio.h>
 #include <stdlib.h>
-
+#include "trans.h"
 // Dimensions of matrix nXm
 #define n 3
 #define m 4
