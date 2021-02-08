@@ -20,11 +20,13 @@ path_builder = get_absolute_file_path('builder_gateway_cpp.sce');
 Function_Names = [
         
         "multiply","sci_multiply", "csci6";
+	"transpose","sci_transpose","csci6";
     ];
 
 //Name of all the files to be compiled
 Files = [
-				"sci_multiply.cpp"
+				"sci_multiply.cpp",
+				"sci_transpose.cpp"
 				]
 
 
@@ -58,7 +60,7 @@ else//LINUX
 
     C_Flags = ["-I"+inc_base_dir];
 
-		Linker_Flag = ["-L" + lib_base_dir + " -lmul -Wl,-rpath="+lib_base_dir]
+		Linker_Flag = ["-L" + lib_base_dir + " -lmul -ltrans -Wl,-rpath="+lib_base_dir]
 
 		libs = [];
 

@@ -3,6 +3,7 @@
 <!--Begin Entities-->
 <!ENTITY a63ae99bf11217b1a0736ff962a637ce1 SYSTEM "/home/karn/Scilab6-Test-Toolbox/Scilab6-Test-Toolbox/help/en_US/add.xml">
 <!ENTITY aeccde00dd35024a4f27063550677a1bc SYSTEM "/home/karn/Scilab6-Test-Toolbox/Scilab6-Test-Toolbox/help/en_US/multiply.xml">
+<!ENTITY a01c867118d85ade532eec5bbced6a009 SYSTEM "/home/karn/Scilab6-Test-Toolbox/Scilab6-Test-Toolbox/help/en_US/transpose.xml">
 <!--End Entities-->
 ]>
 <book version="5.0-subset Scilab" xml:lang="en_US"
@@ -21,5 +22,6 @@
 <title>test_toolbox</title>
 &a63ae99bf11217b1a0736ff962a637ce1;
 &aeccde00dd35024a4f27063550677a1bc;
+&a01c867118d85ade532eec5bbced6a009;
 </part>
 </book>

@@ -5,4 +5,5 @@
 <mapID target="section_0b8f8ddd30d03bcd825dd0b225d1373d" url="section_0b8f8ddd30d03bcd825dd0b225d1373d.html"/>
 <mapID target="add" url="add.html"/>
 <mapID target="multiply" url="multiply.html"/>
+<mapID target="transpose" url="transpose.html"/>
 </map>

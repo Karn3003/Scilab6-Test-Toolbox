@@ -5,3 +5,19 @@ This toolbox overall demonstrates
 2. How to add a function defined in Scilab in Scilab
 3. How to write help for the added functions
 4. How to create a toolbox out of the above functions.
+
+This repository contains compiled library for matrix "transpose" function written in C.
+
+1) Open Scilab terminal console.
+2) Go to your repository folder.
+3) Execute this command "exec builder.sce" to build toolbox.
+4) Now Execute this command "exec loader.sce" to load toolbox.
+5) Type "help" in the scilab console and browse through the help content of "test_toolbox" to know about "transpose" function.
+
+Now transpose functions is ready to use in scilab workspace.
+For example, 
+	
+	x = [1,2,3;4,5,6;7,8,9];
+	y = transpose(x)
+	
+Incase of any query contact: karntiwari3003@gmail.com (KARN TIWARI)

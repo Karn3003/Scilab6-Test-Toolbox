@@ -4,5 +4,6 @@
 #include "c_gateway_prototype.h"
 
 C_GATEWAY_PROTOTYPE(sci_multiply);
+C_GATEWAY_PROTOTYPE(sci_transpose);
 
 #endif /* __LIBTEST_TOOLBOX_GW_H__ */

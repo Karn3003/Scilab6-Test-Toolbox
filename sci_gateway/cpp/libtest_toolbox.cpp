@@ -11,6 +11,7 @@ extern "C"
 int libtest_toolbox(wchar_t* _pwstFuncName)
 {
     if(wcscmp(_pwstFuncName, L"multiply") == 0){ addCFunction(L"multiply", &sci_multiply, MODULE_NAME); }
+    if(wcscmp(_pwstFuncName, L"transpose") == 0){ addCFunction(L"transpose", &sci_transpose, MODULE_NAME); }
 
     return 1;
 }

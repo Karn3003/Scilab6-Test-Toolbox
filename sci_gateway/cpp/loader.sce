@@ -11,6 +11,7 @@ if bOK then
 end
 //
 list_functions = [ 'multiply';
+                   'transpose';
 ];
 addinter(libtest_toolbox_path + filesep() + 'libtest_toolbox' + getdynlibext(), 'libtest_toolbox', list_functions);
 // remove temp. variables on stack
