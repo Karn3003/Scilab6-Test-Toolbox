@@ -6,6 +6,8 @@ This toolbox overall demonstrates
 3. How to write help for the added functions
 4. How to create a toolbox out of the above functions.
 
+NOTE: "thirdparty" directory had been added for you convinence.
+
 This repository contains compiled library for matrix "transpose" function written in C.
 
 1) Open Scilab terminal console.
